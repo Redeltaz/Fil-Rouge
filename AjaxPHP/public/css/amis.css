@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../assets/backgroundCrown.jpg");
+    background-size: cover;
+}
+
+.container{
+    margin-top: 100px;
+    background: linear-gradient(#fcdd49, #f7d636, #f7d100, #e4b600);
+    border: solid white 3px;
+    border-radius: 10px;
+}
+
+#addfriend{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#addfriend h1{
+    margin-bottom: 30px;
+}
+
+#addfriend button{
+    border: none;
+    background: linear-gradient(#f13c9d, #ce2183);
+    font-size: 15px;
+    padding: 15px;
+}
+
+#addfriend button:hover{
+    cursor: pointer;
+    transition-duration: 0.2s;
+    color: black;
+    background: linear-gradient(#f13c9d, #ce2183);
+}
+
+input{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.friend{
+    margin: 75px 0px;
+    text-align: center;
+}
+
+.friend p{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.friend a{
+    margin: 0px 15px;
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    background: linear-gradient(#f13c9d, #ce2183);
+}
+
+.friend a:hover{
+    transition-duration: 0.2s;
+    color: black;
+}
+

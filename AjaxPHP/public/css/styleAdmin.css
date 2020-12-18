@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../assets/backgroundCrown.jpg");
+    background-size: cover;
+}
+
+.container{
+    margin-top: 100px;
+    background: linear-gradient(#fcdd49, #f7d636, #f7d100, #e4b600);
+    border: solid white 3px;
+    border-radius: 10px;
+}
+
+.container p{
+    color: white;
+}
+
+.sondageContent{
+    display: flex;
+}
+
+.sondage{
+    display: block;
+    padding: 50px;
+
+}

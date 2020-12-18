@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    background-image: url("../assets/backgroundCrown.jpg");
+    background-size: cover;
+}
+
+.center {
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+}
+
+.formulaire {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    margin-top: 250px;
+    background: linear-gradient(#fcdd49, #f7d636, #f7d100, #e4b600);
+    border: solid white 3px;
+    border-radius: 10px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.input_control {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0 10px 0;
+    padding-left: 10px;
+}
+
+.send {
+    position: relative;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.send:hover {
+    background-color: rgba(69, 190, 246, 0.459);
+}
